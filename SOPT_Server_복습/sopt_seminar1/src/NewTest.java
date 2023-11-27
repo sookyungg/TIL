@@ -1,7 +1,7 @@
 public class NewTest {
-	public static void main(String[] arg){
-		String dogOne=new String("dog");
-		String dogTwo=new String("dog");
+	public static void main(String[] arg) {
+		String dogOne = new String("dog");
+		String dogTwo = new String("dog");
 
 		System.out.println(System.identityHashCode(dogOne));
 		System.out.println(System.identityHashCode(dogTwo));
